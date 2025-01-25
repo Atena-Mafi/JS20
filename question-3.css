@@ -1,0 +1,38 @@
+
+body{
+
+    background-color: pink;
+}
+
+.cards{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 2rem;
+
+}
+
+.card{
+
+background-color: #5c8b9e;
+width: 16rem;
+height: 18rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+margin-top: 2rem;
+margin-bottom: 2rem;
+border: solid black 0.2rem;
+border-radius: 10%;
+}
+
+.info{
+    color: hsl(180, 69%, 5%);
+    font-size:1.2rem;
+    font-style: italic;
+    text-align: center;
+    text-wrap: wrap;
+}
